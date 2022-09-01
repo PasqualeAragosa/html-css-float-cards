@@ -9,6 +9,15 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 75%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -24,5 +33,22 @@
 .title_header {
     text-align: center;
     margin: 1.25rem;
+}
+
+/* main */
+.description {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.col {
+    width: calc(100% / 3);
+    float: left;
+    background-color: red;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
 }
 /* #endregion Utilities*/
