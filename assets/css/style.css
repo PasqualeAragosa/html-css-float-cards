@@ -1,8 +1,4 @@
 /* #region Common*/
-:root {
-    
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +6,7 @@
 }
 
 body {
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 
@@ -25,19 +21,18 @@ img {
 }
 /* #endregion Common*/
 
-/* #region Utilities*/
-/* #endregion Utilities*/
-
 /* #region Body*/
 /* header */
 .title_header {
+    font-size: 3.5rem;
     text-align: center;
     margin: 1.25rem;
+    color: #E53170;
 }
 
 /* main */
 .description {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 2rem 0;
 }
@@ -52,10 +47,30 @@ img {
     background-color: black;
     margin: 15px;
     color: white;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px black;
+    float: left;
+}
+
+.info_box {
+    margin: 0.75rem;
+    float: right;
+    text-align: left;
+    width: 500px;
+}
+
+.info_box p {
+    font-size: 1.5rem;
+    margin: 25px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.name {
+    font-size: 3rem;
 }
 
 a {
     text-decoration: none;
+    font-size: 2rem;
+    color: rgb(40, 106, 220);
 }
 /* #endregion Utilities*/
