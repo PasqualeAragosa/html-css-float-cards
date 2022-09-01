@@ -44,8 +44,14 @@ img {
 .col {
     width: calc(100% / 3);
     float: left;
-    background-color: red;
+    background-color: white;
+    color: white;
     padding: 0 1rem;
+}
+
+.card {
+    background-color: black;
+    margin: 15px;
 }
 
 a {
